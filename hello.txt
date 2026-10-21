@@ -6,3 +6,4 @@ good
 feature line
 line from main
 line from branch
+<<<<<<< bad

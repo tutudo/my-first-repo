@@ -5,4 +5,5 @@ third line
 good
 feature line
 line from main
+<<<<<<< test
 line from branch

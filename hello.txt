@@ -4,4 +4,5 @@ second line
 third line
 good
 feature line
+<<<<<<< HEAD
 line from main

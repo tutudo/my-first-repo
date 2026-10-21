@@ -16,3 +16,9 @@ jobs:
 
       - name: 打印 hello.txt
         run: cat hello.txt
+      - name: 检查冲突标记
+        run: |
+          if grep -rn '<<<<<<<' hello.txt; then
+            echo "发现冲突标记！"
+            exit 1
+          fi
